@@ -1,5 +1,8 @@
 # Movies Explorer
 
+![Imagem do Projeto](/src/assets/og-image.png)
+
+
 Movies Explorer é um aplicativo mobile desenvolvido em React Native com Expo, que permite explorar filmes e séries populares, buscar títulos, visualizar detalhes e salvar favoritos.
 
 ## Funcionalidades
