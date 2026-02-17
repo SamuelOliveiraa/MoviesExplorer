@@ -1,19 +1,18 @@
 # Movies Explorer
 
-![Imagem do Projeto](/src/assets/og-image.png)
+![Project Image](/src/assets/og-image.png)
 
+Movies Explorer is a mobile application developed in React Native with Expo, which allows you to explore popular movies and series, search for titles, view details, and save favorites.
 
-Movies Explorer é um aplicativo mobile desenvolvido em React Native com Expo, que permite explorar filmes e séries populares, buscar títulos, visualizar detalhes e salvar favoritos.
+## Features
 
-## Funcionalidades
+- Listing of popular movies and series
+- Search for movies and series by title
+- View details (synopsis, rating, release date, trailer)
+- Save and remove favorite movies/series
+- Modern interface with tab navigation
 
-- Listagem de filmes e séries populares
-- Busca por filmes e séries pelo título
-- Visualização de detalhes (sinopse, avaliação, data de lançamento, trailer)
-- Salvar e remover filmes/séries favoritos
-- Interface moderna com navegação por abas
-
-## Tecnologias Utilizadas
+## Technologies Used
 
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
@@ -24,83 +23,66 @@ Movies Explorer é um aplicativo mobile desenvolvido em React Native com Expo, q
 - [AsyncStorage](https://react-native-async-storage.github.io/async-storage/)
 - [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/)
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 MoviesExplorer/
 ├── src/
-│   ├── app/                # Rotas e telas principais
-│   ├── assets/             # Imagens e recursos estáticos
-│   ├── components/         # Componentes reutilizáveis
-│   ├── config/             # Configurações de tema e cores
-│   ├── hooks/              # Hooks customizados (ex: API)
-│   ├── storage/            # Gerenciamento de favoritos
-│   ├── types/              # Tipagens TypeScript
-│   └── utils/              # Utilitários
-├── .env                    # Variáveis de ambiente (API)
-├── app.config.js           # Configuração do Expo
-├── package.json            # Dependências e scripts
+│   ├── app/                # Routes and main screens
+│   ├── assets/             # Static images and resources
+│   ├── components/         # Reusable components
+│   ├── config/             # Theme and color settings
+│   ├── hooks/              # Custom hooks (e.g., API)
+│   ├── storage/            # Favorites management
+│   ├── types/              # TypeScript typings
+│   └── utils/              # Utilities
+├── .env                    # Environment variables (API)
+├── app.config.js           # Expo configuration
+├── package.json            # Dependencies and scripts
 └── ...
 ```
 
-## Como rodar o projeto
+## How to run the project
 
-1. **Clone o repositório**
+1. **Clone the repository**
 
    ```sh
-   git clone https://github.com/seuusuario/moviesexplorer.git
+   git clone https://github.com/youruser/moviesexplorer.git
    cd moviesexplorer
    ```
 
-2. **Instale as dependências**
+2. **Install the dependencies**
 
    ```sh
    npm install
    ```
 
-3. **Configure as variáveis de ambiente**
-
-   - Crie um arquivo .env na raiz do projeto com as seguintes variáveis:
+3. **Configure environment variables**
+   - Create a .env file in the root of the project with the following variables:
      ```
      API_URL=https://api.themoviedb.org/3
-     API_TOKEN=seu_token_aqui
-     API_KEY=sua_api_key_aqui
+     API_TOKEN=your_token_here
+     API_KEY=your_api_key_here
      ```
 
-4. **Inicie o projeto**
+4. **Start the project**
    ```sh
    npm start
    ```
-   Ou use `npm run android` ou `npm run ios` para rodar em um emulador específico.
+   Or use `npm run android` or `npm run ios` to run on a specific emulator.
 
-## Scripts Disponíveis
+## Available Scripts
 
-- `npm start` — Inicia o Expo
-- `npm run android` — Executa no Android
-- `npm run ios` — Executa no iOS
-- `npm run web` — Executa no navegador
-- `npm test` — Executa os testes
+- `npm start` — Starts Expo
+- `npm run android` — Runs on Android
+- `npm run ios` — Runs on iOS
+- `npm run web` — Runs in the browser
+- `npm test` — Runs the tests
 
-## Licença
+## License
 
-Este projeto é apenas para fins de estudo.
-
----
-
-Sinta-se à vontade para contribuir ou sugerir melhorias! Ou use `npm run android` ou `npm run ios` para rodar em um emulador específico.
-
-## Scripts Disponíveis
-
-- `npm start` — Inicia o Expo
-- `npm run android` — Executa no Android
-- `npm run ios` — Executa no iOS
-- `npm run web` — Executa no navegador
-- `npm test` — Executa os testes
-
-## Licença
-
-Este projeto é apenas para fins de estudo.
+This project is for study purposes only.
 
 ---
 
-Sinta-se à vontade para contribuir ou sugerir melhorias!
+Feel free to contribute or suggest improvements!
